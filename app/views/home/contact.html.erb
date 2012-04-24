@@ -1,0 +1,55 @@
+<!-- Start Content -->
+<div>
+	
+       
+	 <%= form_for :reset_password, :html=>{:class=>'form', :id=>'contactform'} do |form| %>
+         
+       <p class="text_box">  <label for="name">*Name:</label></p>
+       <p class="text_box1">  <%= form.text_field :name %></p>
+        <p>
+          <div class="clearfloat"></div>
+        
+         <p class="text_box"><label for="email">*Email:</label></p>
+    	 <p class="text_box1"><%= form.text_field :email %></p>
+
+        
+        
+        <div class="clearfloat"></div>
+        
+         <p class="text_box"><label for="email">*Subject:</label></p>
+        <p class="text_box1"> <%= form.text_field :subject %></p>
+       
+         <div class="clearfloat"></div>
+        
+          <p class="text_box"><label for="comments">*Message:</label></p>
+         <p class="text_box1"><%= form.text_area :message, :rows => 4, :cols => 34 %></p>
+        
+        
+        
+          <p align="left" style="margin: 10px 0pt 0pt 200px;" ><%= submit_tag 'Send', :class => "send_button" %></p>
+        <% end %>
+    </div>
+    
+    <!-- page sidebar -->
+        <br>
+         <br>
+      	<h4><u> Our Address :</u></h4>
+     <img src="images/symbol.gif" height="55" width="55" alt="" />
+     <p><strong>Corporate Info</strong><br>
+      	 Kunal Infotech Pvt Ltd.<br>
+         55, Suyog Nagar, Ring Road<br>
+         Nagpur.<br>
+         Email: info@kunalinfotech.net<br>
+        
+        
+      </p>
+       
+    
+    
+    	
+		
+    <br class="cl">
+    <br class="cl">
+  
+</div>
+<!-- End Content -->

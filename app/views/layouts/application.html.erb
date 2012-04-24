@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SchoolApp</title>
+  <%= stylesheet_link_tag    "application" %>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+  <%= csrf_meta_tags %>
+
+</head>
+<div id="topPan">
+		<a href="index.html"><img src="images/logo.jpg" title="Floral Impact" alt="" width="448" height="45" border="0" class="logo" /></a>
+		
+		<ul>
+			<li class="home"><a href="/" >Home</a></li>
+			<li class="sitemap"><a href=/pages/7 >About Us</a></li>
+			<li class="contact"><a href="/contacts"> Contact us</a></li>
+           
+		</ul>
+</div>
+<div id="bodytopPan">
+  <div id="btleftPan">
+  	
+           <h3><a href=/pages/8 >Acadamics </a>	|
+            <a href=/pages/9 >Facilities</a>|
+            <a href=/pages/11 >Careers </a>	|
+            <a href=/pages/15 >Others </a>|
+            <a href="/contacts" >Contacts</a>	</h3>	
+       
+       <h2>Welcome..</h2>
+       
+	<%= yield %>
+	
+  </div>
+<br><br><br>
+<div id="btrightPan">
+  	<div id="graph">
+			<h2>Acadamics</h2>
+			<p>Aenean congue</p>
+			<a href="#">graph</a>
+	</div>
+		<div id="planning">
+			<h2>Facilities</h2>
+			<p>Aenean congue</p>
+			<a href="#">graph</a>
+		</div>
+		<div id="services">
+			<h2>Career</h2>
+			<p>Aenean congue</p>
+			<a href="#">graph</a>
+		</div>
+		<div id="projects">
+			<h2>Projects</h2>
+			<p>Aenean congue</p>
+			<a href="#">graph</a>
+		</div>
+  </div>
+  
+</div>
+<div id="bodymiddlePan">
+	<h3>Latest previews</h3>
+	<ul>
+		<li><a href="#">tellus.faucibus aliquam. In faucibus aliquet velit. Vivamus eget mauris. mnec odio. Class aptent</a> </li>
+		<li><a href="#">taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Cras </a> </li>
+		<li><a href="#">condimentuullamcorper pede. Sed nec elitfaucibus aliquam vitaodio interdum vulputate.</a> </li>
+	</ul>
+	<h4>want to know more?</h4>
+	<p class="more"><a href="#">more</a></p>
+</div>
+
+<div id="footermainPan">
+  <div id="footerPan">
+  	<ul>
+		<li class="home"><a href="/" >Home</a>|</li> 
+		<li class="sitemap"><a href=/pages/7 >About Us</a>|</li>
+	    <li class="contact"><a href=/pages/8 >Acadamics </a>|</li>
+        <li class="contact"><a href=/pages/9 >Facilities</a>|</li>
+        <li class="contact"><a href=/pages/11 >Careers </a>|</li>
+		</ul>
+		<p class="copyright">Copyright ©KIPL . All right reserved.</p> 
+  </div>
+</div>
+</body>
+</html>
